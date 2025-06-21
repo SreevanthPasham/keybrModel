@@ -4,7 +4,7 @@ A machine learning model that reverse-engineers the scoring algorithm used by ke
 
 ## Project Overview
 
-I was practicing typing on keybr.com and got curious about how their mysterious scoring system worked. So I collected my typing test data and built a machine learning model to figure out their scoring calculation. Turns out it's pretty complex!
+I was practicing typing on keybr.com and got curious about how their scoring system worked. So I collected my typing test data and built a machine learning model to figure out their scoring calculation. Turns out it's pretty complex!
 
 ## Results
 
@@ -16,6 +16,11 @@ I was practicing typing on keybr.com and got curious about how their mysterious 
 ## Try It Yourself
 
 ```python
-# Predict your keybr score
-predicted_score = predict_score(wpm=95.4, accuracy=95.93)
+# Predict your keybr score and percent error
+actual_score = 4107  # change to your actual score
+wmp = 95.4  # change to your actual wpm
+accuracy = 95.93  # change to your actual accuracy
+predicted_score = predict_score(wpm, accuracy)
 print(f"Predicted Score: {predicted_score:.0f}")
+percent_error = ((abs(predicted_score - actual_score)) / actual_score) * 100
+print(f"Percent Error: {percent_error:.2f}%")
