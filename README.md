@@ -9,8 +9,8 @@ I was practicing typing on keybr.com and got curious about how their mysterious 
 ## Results
 
 - **Model**: Ridge Regression with 5th-degree polynomial features
-- **Accuracy**: 98% variance explained (R² = 0.980)
-- **Error Rate**: Only 6.2% average prediction error
+- **Accuracy**: R² = 0.980
+- **Error Rate**: 6.2% average prediction error
 - **Validation MAE**: 469 points
 
 ## Try It Yourself
