@@ -4,7 +4,7 @@ A machine learning model that reverse-engineers the scoring algorithm used by ke
 
 ## Project Overview
 
-I was practicing typing on keybr.com and got curious about how their scoring system worked. So I collected my typing test data and built a machine learning model to figure out their scoring calculation. Turns out it's pretty complex!
+I was practicing typing on keybr.com and got curious about how their scoring system worked. So I collected my typing test data and built a machine learning model to figure out their scoring calculation. 
 
 ## Results
 
