@@ -18,7 +18,7 @@ I was practicing typing on keybr.com and got curious about how their scoring sys
 ```python
 # Predict your keybr score and percent error
 actual_score = 4107  # change to your actual score
-wmp = 95.4  # change to your actual wpm
+wpm = 95.4  # change to your actual wpm
 accuracy = 95.93  # change to your actual accuracy
 predicted_score = predict_score(wpm, accuracy)
 print(f"Predicted Score: {predicted_score:.0f}")
